@@ -16,6 +16,7 @@
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
+    "start": "node server.js", 
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css"
   }
 }
